@@ -1,4 +1,4 @@
-## JEVC Player 🎵
+## VC Player 🎵
 
 #### A simple voice chat music play userbot
 
