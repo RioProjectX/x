@@ -1,0 +1,9 @@
+pyrogram
+pytgcalls
+asyncio
+tgcrypto
+ffmpeg-python
+requests
+wget
+aiohttp
+aiofiles
