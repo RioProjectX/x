@@ -1,6 +1,3 @@
-# Examined dashezup's vcbot repo for make this working only for contacts and userbot!
-# Infinity BOTs <https://t.me/Infinity_BOTs>
-
 import os
 from pytgcalls import GroupCall
 import ffmpeg
@@ -55,7 +52,7 @@ def get_arg(message):
 # start message
 @app.on_message(filters.command('start'))
 async def start(client, message):
-    await message.reply("Heya, I'm JEVC Player 🎵\n\nRepo > https://github.com/ImJanindu/vcplayerbot",
+    await message.reply("Heya, I'm TG VC Player 🎵\n\nI'm Here To Play Music On Voice Chat Via UserBot.",
                         disable_web_page_preview=True)
 
 # ping checker
@@ -78,7 +75,7 @@ async def song(client, message):
         return ""
     pak = await message.reply('Downloading...')
     try:
-        # @ImJanindu <Infinity BOTs>
+        # @TG <BOTS>
         r = requests.get(f"https://jevcplayerbot-saavndl.herokuapp.com/result/?query={args}")
     except Exception as e:
         await pak.edit(str(e))
@@ -147,7 +144,7 @@ async def play_track(client, message):
     ).overwrite_output().run()
     os.remove(audio_original)
     if VOICE_CHATS and message.chat.id in VOICE_CHATS:
-        text = f'▶️ Playing **{audio.title}** here by JEVC BOT...'
+        text = f'▶️ Playing **{audio.title}** here by VC BOT...'
     else:
         try:
             group_call = GroupCall(client, input_filename)
@@ -156,7 +153,7 @@ async def play_track(client, message):
             await message.reply('Group Call doesnt exist')
             return
         VOICE_CHATS[message.chat.id] = group_call
-    await a.edit(f'▶️ Playing **{audio.title}** here by JEVC BOT...')
+    await a.edit(f'▶️ Playing **{audio.title}** here by VC BOT...')
 
 
 @app.on_message(filters.command('stopvc') & self_or_contact_filter)
@@ -196,7 +193,7 @@ async def leave_voice_chat(client, message):
     await message.reply('Left Voice Chat ✅')
 
 app.start()
-print('>>> JEVC USERBOT STARTED')
+print('>>> VC USERBOT STARTED')
 idle()
 app.stop()
-print('\n>>> JEVC USERBOT STOPPED')
+print('\n>>> VC USERBOT STOPPED')
