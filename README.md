@@ -38,11 +38,5 @@
 - [William Butcher Bot](https://github.com/thehamkercat/WilliamButcherBot)
 
 ### Devs
-
+- [TG MUSICS](https://github.com/TG-Musics)
 - [ImJanindu](https://github.com/ImJanindu)
-
-### Support
-
-- [InfinityBots Support](https://t.me/InfinityBots_Support)
-
-### Licensed under the GNU General Public License v3.0
