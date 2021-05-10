@@ -34,5 +34,4 @@
 **[TG MUSICS](https://github.com/TG-Musics)** ▪ **[Vivek](https://github.com/VIVEK-TP)** ▪ **[Aswin Raj](https://github.com/ASWIN-RAJ-TG)** ▪ **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)** ▪ **[Fayas](https://github.com/FAYASNOUSHAD)** ▪ **[RabbitFoRed](https://github.com/RabbitFored)** ▪ **[Itz-Fork](https://github.com/Itz-fork)** ▪ **[HEIMAN PICTURES](https://github.com/HeimanPictures)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** ▪ **[Pyrogram](https://github.com/pyrogram/pyrogram)** ▪ **[Tgcalls](https://github.com/MarshalX/tgcalls)** ▪ **[tgvc-userbot](https://github.com/callsmusic/tgvc-userbot)** ▪ **[William Butcher Bot](https://github.com/thehamkercat/WilliamButcherBot)**
 
 ### Devs
- [TG MUSICS](https://github.com/TG-Musics)
-- [ImJanindu](https://github.com/ImJanindu)
+**[TG MUSICS](https://github.com/TG-Musics)** ▪ **[ImJanindu](https://github.com/ImJanindu)**
