@@ -10,7 +10,7 @@
 
 × Currently queue is not available
 
-Thanks To **[ImJanindu](https://github.com/ImJanindu)**
+**Thanks To** **[ImJanindu](https://github.com/ImJanindu)**
 
 ### Commands 🛠
 
