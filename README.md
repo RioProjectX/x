@@ -10,6 +10,8 @@
 
 × Currently queue is not available
 
+Thanks To **[ImJanindu](https://github.com/ImJanindu)**
+
 ### Commands 🛠
 
 - `/start` - check bot is alive
