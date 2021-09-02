@@ -27,7 +27,7 @@
 
 ### Host Bot 📡
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImJanindu/vcplayerbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RioProjectX/Userbot-VC)
 
 ### Pyrogram String Session 🖱
 - [String session here](https://replit.com/@SpEcHiDe/GenerateStringSession)
@@ -36,4 +36,4 @@
 **[TG MUSICS](https://github.com/TG-Musics)** ▪ **[Vivek](https://github.com/VIVEK-TP)** ▪ **[Aswin Raj](https://github.com/ASWIN-RAJ-TG)** ▪ **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)** ▪ **[Fayas](https://github.com/FAYASNOUSHAD)** ▪ **[RabbitFoRed](https://github.com/RabbitFored)** ▪ **[Itz-Fork](https://github.com/Itz-fork)** ▪ **[HEIMAN PICTURES](https://github.com/HeimanPictures)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** ▪ **[Pyrogram](https://github.com/pyrogram/pyrogram)** ▪ **[Tgcalls](https://github.com/MarshalX/tgcalls)** ▪ **[tgvc-userbot](https://github.com/callsmusic/tgvc-userbot)** ▪ **[William Butcher Bot](https://github.com/thehamkercat/WilliamButcherBot)**
 
 ### Devs 👨🏻‍💻
-**[](https://github.com/TG-Musics)** ▪ **[ImJanindu](https://github.com/ImJanindu)**
+**[Rio](https://github.com/RioProjectX)** ▪ **[Telegram](https://t.me/riio00)**
