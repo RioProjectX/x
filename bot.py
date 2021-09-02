@@ -52,7 +52,7 @@ def get_arg(message):
 # start message
 @app.on_message(filters.command('start'))
 async def start(client, message):
-    await message.reply("Heya, I'm TG VC Player 🎵\n\nI'm Here To Play Music On Voice Chat Via UserBot.",
+    await message.reply("Hey, Saya TG VC Player 🎵\n\nSaya Disini Untuk Memutar Music Di Voice Chat Via UserBot.",
                         disable_web_page_preview=True)
 
 # ping checker
@@ -71,7 +71,7 @@ async def song(client, message):
     message.from_user["id"]
     args = get_arg(message) + " " + "song"
     if args.startswith(" "):
-        await message.reply("What's the song you want 🧐")
+        await message.reply("Lagu Apa Yang Kau Mau? 🧐")
         return ""
     pak = await message.reply('Downloading...')
     try:
@@ -105,11 +105,11 @@ async def download_song(url):
 @app.on_message(filters.command("deezer") & self_or_contact_filter)
 async def deezer(_, message):
     if len(message.command) < 2:
-        await message.reply_text("What's the song you want 🧐")
+        await message.reply_text("Lagu Apa Yang Kau Mau 🧐")
         return
     text = message.text.split(None, 1)[1]
     query = text.replace(" ", "%20")
-    hike = await message.reply_text("Searching...")
+    hike = await message.reply_text("Mencari...")
     try:
         r = await fetch(f"{ARQ}deezer?query={query}&count=1")
         title = r[0]["title"]
@@ -144,7 +144,7 @@ async def play_track(client, message):
     ).overwrite_output().run()
     os.remove(audio_original)
     if VOICE_CHATS and message.chat.id in VOICE_CHATS:
-        text = f'▶️ Playing **{audio.title}** here by VC BOT...'
+        text = f'▶️ Playing **{audio.title}** Disini by Rio VC BOT...'
     else:
         try:
             group_call = GroupCall(client, input_filename)
@@ -153,7 +153,7 @@ async def play_track(client, message):
             await message.reply('Group Call doesnt exist')
             return
         VOICE_CHATS[message.chat.id] = group_call
-    await a.edit(f'▶️ Playing **{audio.title}** here by VC BOT...')
+    await a.edit(f'▶️ Playing **{audio.title}** Disini by Rio VC BOT...')
 
 
 @app.on_message(filters.command('stopvc') & self_or_contact_filter)
@@ -171,7 +171,7 @@ async def join_voice_chat(client, message):
         'input.raw',
     )
     if message.chat.id in VOICE_CHATS:
-        await message.reply('Already joined to Voice Chat 🛠')
+        await message.reply('Sudah Bergabung ke Voice Chat 🛠')
         return
     chat_id = message.chat.id
     try:
@@ -181,7 +181,7 @@ async def join_voice_chat(client, message):
         await message.reply('lel error!')
         return
     VOICE_CHATS[chat_id] = group_call
-    await message.reply('Joined the Voice Chat ✅')
+    await message.reply('Bergabung Voice Chat ✅')
 
 
 @app.on_message(filters.command('leavevc') & self_or_contact_filter)
@@ -190,7 +190,7 @@ async def leave_voice_chat(client, message):
     group_call = VOICE_CHATS[chat_id]
     await group_call.stop()
     VOICE_CHATS.pop(chat_id, None)
-    await message.reply('Left Voice Chat ✅')
+    await message.reply('Meninggalkan Voice Chat ✅')
 
 app.start()
 print('>>> VC USERBOT STARTED')
