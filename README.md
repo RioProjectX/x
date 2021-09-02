@@ -1,5 +1,5 @@
 ## VC Player 🎵
-[RIO UBOT Logo](https://telegra.ph/file/e2fd7bb40e54dc4b42c34.jpg)
+RIO UBOT(https://telegra.ph/file/e2fd7bb40e54dc4b42c34.jpg)
 
 
 #### A simple voice chat music play userbot
