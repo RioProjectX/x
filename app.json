@@ -1,7 +1,7 @@
 {
-    "name": "JEVC Player Bot",
+    "name": "RIO Player Bot",
     "description": "A userbot that can play songs on telegram group's voice call.",
-    "logo": "https://telegra.ph/file/4414421c401a9b604267b.jpg",
+    "logo": "https://telegra.ph/file/7b165df7c0ec77d6fff04.jpg",
     "keywords": [
         "Music",
         "VC Player",
@@ -9,11 +9,11 @@
         "JE Bots"
     ],
     "website": "https://infinityje.com",
-    "repository": "https://github.com/ImJanindu/vcplayerbot",
+    "repository": "https://github.com/RioProjectX/Userbot-VC",
     "success_url": "https://t.me/Infinity_BOTs",
     "env": {
         "STRING_SESSION": {
-            "description": "Your pyrogram string session from https://replit.com/@SpEcHiDe/GenerateStringSession",
+            "description": "Your pyrogram string session from @siiniaja",
             "value": ""
         },
         "API_HASH": {
