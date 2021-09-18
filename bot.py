@@ -52,7 +52,7 @@ def get_arg(message):
 # start message
 @app.on_message(filters.command('start'))
 async def start(client, message):
-    await message.reply("Hey, Saya TG VC Player 🎵\n\nSaya Disini Untuk Memutar Music Di Voice Chat Via UserBot.",
+    await message.reply("Hey, Saya BOT MUSIK PRIVAT 🎵\n\nSaya Disini Untuk Memutar Music Di Voice Chat Via UserBot.",
                         disable_web_page_preview=True)
 
 # ping checker
@@ -73,7 +73,7 @@ async def song(client, message):
     if args.startswith(" "):
         await message.reply("Lagu Apa Yang Kau Mau? 🧐")
         return ""
-    pak = await message.reply('Downloading...')
+    pak = await message.reply('Mendownload...')
     try:
         # @TG <BOTS>
         r = requests.get(f"https://jevcplayerbot-saavndl.herokuapp.com/result/?query={args}")
@@ -144,7 +144,7 @@ async def play_track(client, message):
     ).overwrite_output().run()
     os.remove(audio_original)
     if VOICE_CHATS and message.chat.id in VOICE_CHATS:
-        text = f'▶️ Playing **{audio.title}** Disini by Rio VC BOT...'
+        text = f'▶️ Playing **{audio.title}** Disini Powered by Rio Music...'
     else:
         try:
             group_call = GroupCall(client, input_filename)
@@ -153,7 +153,7 @@ async def play_track(client, message):
             await message.reply('Group Call doesnt exist')
             return
         VOICE_CHATS[message.chat.id] = group_call
-    await a.edit(f'▶️ Playing **{audio.title}** Disini by Rio VC BOT...')
+    await a.edit(f'▶️ Playing **{audio.title}** Disini Powred by Rio Music...')
 
 
 @app.on_message(filters.command('stopvc') & self_or_contact_filter)
@@ -161,7 +161,7 @@ async def stop_playing(_, message):
     group_call = VOICE_CHATS[message.chat.id]
     group_call.stop_playout()
     os.remove('downloads/vcbot/input.raw')
-    await message.reply('Stopped Playing ❌')
+    await message.reply('Berhenti Memutar ❌')
 
 
 @app.on_message(filters.command('joinvc') & self_or_contact_filter)
@@ -193,7 +193,7 @@ async def leave_voice_chat(client, message):
     await message.reply('Meninggalkan Voice Chat ✅')
 
 app.start()
-print('>>> VC USERBOT STARTED')
+print('>>> VC Userbot Dimulai')
 idle()
 app.stop()
-print('\n>>> VC USERBOT STOPPED')
+print('\n>>> VC Userbot Berhenti')
