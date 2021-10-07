@@ -1,4 +1,4 @@
-## VC Player 🎵
+## Zaen-ProjectX 🎵
 ![Zaen-projectX Logo](https://telegra.ph/file/add9403593d21d235a120.jpg)
 
 
