@@ -1,7 +1,7 @@
 {
-    "name": "RIO Player Bot",
+    "name": "Zaen-projec",
     "description": "A userbot that can play songs on telegram group's voice call.",
-    "logo": "https://telegra.ph/file/7b165df7c0ec77d6fff04.jpg",
+    "logo": "https://telegra.ph/file/add9403593d21d235a120.jpg",
     "keywords": [
         "Music",
         "VC Player",
@@ -9,7 +9,7 @@
         "JE Bots"
     ],
     "website": "https://infinityje.com",
-    "repository": "https://github.com/RioProjectX/Userbot-VC",
+    "repository": "https://github.com/Zaen-ubot/Zaen-projectX",
     "success_url": "https://t.me/Infinity_BOTs",
     "env": {
         "STRING_SESSION": {
