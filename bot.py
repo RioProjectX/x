@@ -193,7 +193,7 @@ async def leave_voice_chat(client, message):
     await message.reply('Meninggalkan Voice Chat ✅')
 
 app.start()
-print('>>> Rio VCUserbot Dimulai')
+print('>>> Zaen VCUserbot Dimulai')
 idle()
 app.stop()
-print('\n>>> Rio VCUserbot Berhenti')
+print('\n>>> Zaen VCUserbot Berhenti')

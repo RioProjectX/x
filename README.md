@@ -1,5 +1,5 @@
-## VC Player 🎵
-![RIO UBOT Logo](https://telegra.ph/file/e2fd7bb40e54dc4b42c34.jpg)
+## Zaen-ProjectX 🎵
+![Zaen-projectX Logo](https://telegra.ph/file/add9403593d21d235a120.jpg)
 
 
 #### A simple voice chat music play userbot
@@ -28,7 +28,7 @@
 
 ### Host Bot 📡
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RioProjectX/Userbot-VC)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Zaen-ubot/Zaen-projectX)
 
 ### Pyrogram String Session 🖱
 - [String session here](https://replit.com/@SpEcHiDe/GenerateStringSession)
@@ -37,4 +37,4 @@
 **[TG MUSICS](https://github.com/TG-Musics)** ▪ **[Vivek](https://github.com/VIVEK-TP)** ▪ **[Aswin Raj](https://github.com/ASWIN-RAJ-TG)** ▪ **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)** ▪ **[Fayas](https://github.com/FAYASNOUSHAD)** ▪ **[RabbitFoRed](https://github.com/RabbitFored)** ▪ **[Itz-Fork](https://github.com/Itz-fork)** ▪ **[HEIMAN PICTURES](https://github.com/HeimanPictures)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** ▪ **[Pyrogram](https://github.com/pyrogram/pyrogram)** ▪ **[Tgcalls](https://github.com/MarshalX/tgcalls)** ▪ **[tgvc-userbot](https://github.com/callsmusic/tgvc-userbot)** ▪ **[William Butcher Bot](https://github.com/thehamkercat/WilliamButcherBot)**
 
 ### Devs 👨🏻‍💻
-**[Rio](https://github.com/RioProjectX)** ▪ **[Telegram](https://t.me/riio00)**
+**[Zaen](https://github.com/Zaen-projectX)** ▪ **[Telegram](https://t.me/mafia_tobatz)**
